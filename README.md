@@ -1,12 +1,12 @@
 # IodoFinder
-[![Generic badge](https://img.shields.io/badge/IodoFinder-ver_1.0-<COLOR>.svg)](https://github.com/TingtingZhao81/ChloroDBPFinder)
+[![Generic badge](https://img.shields.io/badge/IodoFinder-ver_1.0-<COLOR>.svg)](https://github.com/Huanlab/IodoFinder)
 ![Maintainer](https://img.shields.io/badge/maintainer-Tingting_Zhao-blue)
 
 `IodoFinder` is a python script to recognize and clean iodinated compounds in LC-MS/MS analysis. 
 From the feature table and raw LC-MS/MS data, it can automatically recognize the iodinated compounds,
 and further flag the isotopes and adducts. Two machine learning models are provided for positive and negative ionization modes separately.
 
-The program is written in the language Python and its source code is publicly available at [IodoFinder](https://github.com/TingtingZhao81/IodoFinder).
+The program is written in the language Python and its source code is publicly available at [IodoFinder](https://github.com/Huanlab/IodoFinder).
 
 <!-- TOC -->
 * [IodoFinder](#iodofinder)
@@ -35,10 +35,10 @@ Python version 3.9.19 or above is required. To run IodoFinder successfully, plea
 ```
 
 ### IodoFinder installation
-Download IodoFinder script (IodoFinder.py) from [IodoFinder](https://github.com/TingtingZhao81/IodoFinder)
+Download IodoFinder script (IodoFinder.py) from [IodoFinder](https://github.com/Huanlab/IodoFinder)
 
 ### Download machine learning model
-`Positive model` and `Negative model` can be freely downloaded in [machine learning models](https://github.com/TingtingZhao81/IodoFinder/main/machine_learning_model)
+`Positive model` and `Negative model` can be freely downloaded in [machine learning models](https://github.com/HuanLab/IodoFinder/tree/main/machine_learning_models)
 
 `Demo data` can be freely downloaded in [demo data](https://github.com/TingtingZhao81/IodoFinder/main/demo_data)
 
