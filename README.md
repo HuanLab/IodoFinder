@@ -54,13 +54,13 @@ IodoFinder contains two modules: <br>
    The format for customized feature table:<br>
 - 'featureID': ID of the features
 - 'mz': m/z of the features
-- 'rt': retention time in seconds
+- 'rt': retention time in minutes
 - 'Int_S1', 'Int_S2': peak intensity (height/area) from each raw lcms file. The orders of these intenisty columns should match of the corresponding raw lcms file
 
-| featureID | mz        | rt      | Int_S1 | Int_S2  |
-|-----------|-----------|---------|--------|---------|
-| 1         | 327.0745  | 1813.34 | 100000 | 500     |
-| 2         | 274.2744  | 1821.80 | 20000  | 700000  |
+| featureID | mz        | rt   | Int_S1 | Int_S2  |
+|-----------|-----------|------|--------|---------|
+| 1         | 327.0745  | 5.2  | 100000 | 500     |
+| 2         | 274.2744  | 21.0 | 20000  | 700000  |
 
 ### Configure working directory and set parameters
 1. Specify the folder and format of raw lcms data in line 9 and 10
