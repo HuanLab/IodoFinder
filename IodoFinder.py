@@ -24,8 +24,9 @@ tb.index = range(len(tb))
 for i in range(len(tb)):
     intensities = tb.iloc[i, 3:(3+sample_num)]
     # Find all indices of the largest value
-    indices_of_max = np.where(np.array(intensities) == max(intensities))[0]
+    indices_of_max = np.argmax(np.array(intensities))
     tb.loc[i,'highest_sample_num'] = indices_of_max
+
 tb['ms2_mz'] = ''
 tb['ms2_int'] = ''
 
