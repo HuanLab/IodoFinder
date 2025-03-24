@@ -101,6 +101,9 @@ Click '**run**' button, two tables will be output:
 
 ## Citation
 If you use IodoFinder in your research, please cite the following paper:
+
+Zhao, Tingting, et al. "IodoFinder: Machine Learning-Guided Recognition of Iodinated Chemicals in Nontargeted LC-MS/MS Analysis." Environmental Science & Technology (2025).
+https://pubs.acs.org/doi/full/10.1021/acs.est.4c12698
  
 
 
