@@ -40,7 +40,7 @@ Download IodoFinder script (IodoFinder.py) from [IodoFinder](https://github.com/
 ### Download machine learning model
 `Positive model` and `Negative model` can be freely downloaded in [machine learning models](https://github.com/HuanLab/IodoFinder/tree/main/machine_learning_models)
 
-`Demo data` can be freely downloaded in [demo data](https://pan.baidu.com/s/1NyJodxDjegBf53vPjqoDjA?pwd=94uw) using code: 94uw
+`Demo data` can be freely downloaded in [demo data](https://zenodo.org/records/17517758)
 
 ## Instructions for usage
 
